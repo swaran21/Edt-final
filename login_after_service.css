@@ -1,0 +1,143 @@
+/* CSS for Services Page */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Neutral background color */
+    color: #030303;
+}
+
+header {
+    background-color: #35424a; /* Dark color for contrast */
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Larger font size */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #81c784; /* Hover effect */
+}
+
+section#services {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section#services .container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+section#services h2 {
+    color: #35424a; /* Dark color */
+    margin-bottom: 20px;
+    font-size: 2rem; /* Larger font size */
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+section#services form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section#services form label {
+    font-size: 1.1em;
+    text-align: left;
+}
+
+section#services form input,
+section#services form select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+section#services form button {
+    background-color: #81c784; /* Soft green button */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    animation: fadeIn 2s ease-in-out;
+}
+
+section#services form button:hover {
+    background-color: #2f855a; /* Darker green */
+}
+
+footer {
+    background-color: #35424a; /* Consistent footer background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.acc_pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.acc_pic:hover{
+    transform: scale(1.2);
+}
+
+
+.acc_pic_container:hover .dropdown {
+    display: block;
+}

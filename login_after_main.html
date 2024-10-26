@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Waste Network</title>
+    <link rel="stylesheet" href="login_after_main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-jd4T3xCDPybKlO7hj6tL60ypuogjz6biTef8U5b5fsV4i6x7Ed8ZTBGwM8N/0uB7iUe2e9zN7b1rSZGR0SFiXw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="Screenshot (40).png" alt="Zero Waste Network Logo" class="logo">
+            <h1>Zero Waste Network</h1>
+            <div class="emptydiv"></div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#get-involved">Get Involved</a></li>
+                    <li><a href="#store">Store</a></li>
+                    <li><a href="login_after_product.html">Products</a></li>
+                    <li><a href="login_after_service.html">Services</a></li>
+                </ul>
+            </nav>
+            <div class="acc_pic_container">
+                <img src="acc.webp" class="acc_pic" >
+                <div class="dropdown" id="dropdown-menu">
+                    <a href="index.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2 id="hero-title">Welcome to Zero Waste Network</h2>
+            <p id="hero-description">Your one-stop destination for sustainable waste management. Discover innovative solutions to reduce, reuse, and recycle waste, creating a cleaner, greener future.</p>
+            <button onclick="openModal()">Learn More</button>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Zero Waste Network</h2>
+            <div class="content-grid">
+                <div class="content-item fadeInLeft">
+                    <h3>Community-Driven</h3>
+                    <p>Zero Waste Network is a community-driven initiative dedicated to promoting sustainable waste management practices.</p>
+                    <h3>Empowering Change</h3>
+                    <p>We empower individuals, businesses, and local communities to reduce, reuse, and recycle their waste, creating a circular economy and a healthier planet.</p>
+                </div>
+                <div class="content-item fadeInRight">
+                    <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786" alt="About Zero Waste Network">
+                </div>
+            </div>
+        </div>
+    </section>
+     <section id="benefits" class="section bg-light">
+        <div class="container">
+            <h2>Benefits of Recycling</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item fadeInUp">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Environmental Protection</h3>
+                    <p>Recycling reduces waste sent to landfills and incinerators, conserves natural resources, and prevents pollution by reducing the need to extract, process, and transport raw materials.</p>
+                </div>
+                <div class="benefit-item fadeInUp">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Cost Savings</h3>
+                    <p>Recycling saves money for families, communities, and businesses by reducing the need for expensive waste disposal and processing.</p>
+                </div>
+                <div class="benefit-item fadeInUp">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Job Creation</h3>
+                    <p>The recycling industry employs over 1 million people in the United States, creating green jobs in collection, processing, and manufacturing.</p>
+                </div>
+            </div>
+
+            <!-- Counter Grid -->
+            <div class="counter-grid">
+                <div class="counter-item">
+                    <span class="counter" data-target="1000000">0</span>
+                    <p>Tons of Waste Recycled</p>
+                </div>
+                <div class="counter-item">
+                    <span class="counter" data-target="500000">0</span>
+                    <p>Dollars Saved</p>
+                </div>
+                <div class="counter-item">
+                    <span class="counter" data-target="1200000">0</span>
+                    <p>Jobs Created</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="get-involved" class="section">
+        <div class="container">
+            <h2>How to Get Involved</h2>
+            <div class="carousel">
+                <div class="carousel-item active">
+                    <h3>Volunteer</h3>
+                    <p>Volunteer your time to help with local cleanup efforts, educational outreach, or administrative tasks.</p>
+                </div>
+                <div class="carousel-item">
+                    <h3>Donate</h3>
+                    <p>Donate funds to support our initiatives and help expand our reach.</p>
+                </div>
+                <div class="carousel-item">
+                    <h3>Take the Zero Waste Pledge</h3>
+                    <p>Commit to reducing your personal waste and recycle diligently, inspiring others and setting an example for your community.</p>
+                </div>
+            </div>
+            <button id="prev"><i class="fas fa-chevron-left"></i></button>
+            <button id="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section id="store" class="section bg-light">
+        <div class="container">
+            <h2>Buy Recycled Products</h2>
+            <div class="content-grid">
+                <div class="content-item">
+                    <h3>Eco-Friendly Home Decor</h3>
+                    <p>Explore our online store filled with a wide range of products made from recycled materials.</p>
+                    <h3>Sustainable Office Supplies</h3>
+                    <p>We offer a variety of options to help you reduce your environmental impact while supporting the circular economy.</p>
+                </div>
+                <div class="content-item">
+                    <img src="https://raw.githubusercontent.com/swaran21/lol/main/images/The-Best-Recycled-Plastic-Outdoor-Furniture-Pieces-Option-Recycled-Plastic-Outdoor-Lounge-Chair.webp" alt="Store">
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zero Waste Network. All rights reserved.</p>
+            <p>Follow us on 
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </p>
+        </div>
+    </footer>
+    
+    <script src="after.js"></script>
+</body>
+</html>
